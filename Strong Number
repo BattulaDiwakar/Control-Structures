@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Strong
+{
+    public static void main(String[] args)
+    {Scanner sc=new Scanner(System.in);
+    int n,i;
+    int fact,lastdig;
+   n = sc.nextInt();
+   int total = 0;
+   int temp = n;
+   while(n != 0)
+{
+i = 1;
+fact = 1;
+lastdig = n % 10;
+while(i <= lastdig)
+{
+fact = fact * i;
+i++;
+}
+total = total + fact;
+n = n / 10;
+}
+if(total == temp)
+System.out.println("Strong Number");
+else
+System.out.println("Not a Strong Number");
+System.out.println();
+}
+}
+
+        
