@@ -1,0 +1,26 @@
+//code here
+import java.util.Scanner;
+public class Assessment1
+{public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int a,b,c,d=75,e=50;
+    a=sc.nextInt();
+    b=sc.nextInt();
+    c=sc.nextInt();
+    int f=b*d;
+    int g=c*e;
+    int total=f+g;
+    if (total<=a){
+    System.out.println("Boat is Stable");
+    }
+    else 
+    {
+    System.out.println("Boat is unstable");
+    
+    
+    
+    
+    
+    }   
+}
+}
